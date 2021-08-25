@@ -13,8 +13,13 @@ namespace Cats
             Name = name;
         }
 
-        // On this line, write a constructor that uses the no-arg constructor in the Cat class.
+        public HouseCat(string name)
+        {
+            Name = name;
+        }
 
+        // On this line, write a constructor that uses the no-arg constructor in the Cat class.
+        
         public bool IsSatisfied()
         {
             return !Hungry && !Tired;
